@@ -16,9 +16,9 @@ public class Maven {
         System.out.print("Please enter a line from a song.");
         String lyrics = scanner.nextLine();
 
-        System.out.println(StringUtils.isNumeric(lyrics));
-        System.out.println(StringUtils.swapCase(lyrics));
-        System.out.println(StringUtils.reverse(lyrics));
+        System.out.println("Is a number: " + StringUtils.isNumeric(lyrics));
+        System.out.println("Case switch of lyrics is: " +StringUtils.swapCase(lyrics));
+        System.out.println("Lyrics reversed its: "+StringUtils.reverse(lyrics));
 
 
     }
